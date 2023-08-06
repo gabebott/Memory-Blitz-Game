@@ -1,0 +1,31 @@
+body {
+    background: #999999;
+    margin: 0;
+}
+
+.tiles {
+    margin: 48px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 16px;
+}
+
+.tile {
+    height: 100px;
+    background: #444444;
+    border: 5px solid #d9d9d9;
+    cursor: pointer;
+}
+
+#title {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
